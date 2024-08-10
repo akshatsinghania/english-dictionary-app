@@ -113,6 +113,13 @@ ul.word i {
   font-size: 15px;
   color: #999;
 }
+ul .content {
+  max-height: 215px;
+  overflow-y: auto;
+}
+ul .content::-webkit-scrollbar {
+  width: 0px;
+}
 .content li .details {
   padding-left: 10px;
   border-radius: 4px 0 0 4px;

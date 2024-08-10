@@ -18,13 +18,13 @@
     <div class="wrapper">
       <header>English Dictionary</header>
       <div class="search">
-        <input type="text" placeholder="search a word" required />
+        <input type="text" placeholder="Search a word" required />
         <i class="fas fa-search"></i>
-        <span class="material-icons">close</span>
+        <span class="material-icons close-icon">close</span>
       </div>
       <p class="info-text">
-        Type a word and press enter to get meaning,example, pronunciation,and
-        synonyms of that typed word
+        Type a word and press enter to get meaning, example, pronunciation, and
+        synonyms of that typed word.
       </p>
       <ul>
         <li class="word">
@@ -32,31 +32,30 @@
             <p>_</p>
             <span>__</span>
           </div>
-          <i class="fas fa-volume-up"></i>
+
+          <audio
+            class="pronunciation-audio"
+            controls
+            style="display: none"
+          ></audio>
         </li>
         <div class="content">
           <li class="meaning">
             <div class="details">
               <p>Meaning</p>
-              <span>feeling or showing pleasure or contentment</span>
+              <span>__</span>
             </div>
           </li>
           <li class="example">
             <div class="details">
-              <p>example</p>
-              <span>Akshat came back from school happy and excited</span>
+              <p>Example</p>
+              <span>__</span>
             </div>
           </li>
           <li class="synonyms">
             <div class="details">
               <p>Synonyms</p>
-              <div class="list">
-                <span>glad,</span>
-                <span>contented,</span>
-                <span>delighted,</span>
-                <span>cheerful,</span>
-                <span>joyful</span>
-              </div>
+              <div class="list"><span>__</span></div>
             </div>
           </li>
         </div>
